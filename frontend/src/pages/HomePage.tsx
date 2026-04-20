@@ -41,19 +41,11 @@ export default function HomePage() {
       }}
     >
       <header style={{ textAlign: "center", marginBottom: "3rem" }}>
-        <h1
-          style={{
-            fontFamily: "'Cinzel', serif",
-            fontSize: "3.5rem",
-            fontWeight: 700,
-            color: "var(--accent-gold)",
-            textShadow: "0 0 40px #c9a84c55",
-            margin: 0,
-            letterSpacing: "0.05em",
-          }}
-        >
-          ⚖️ LexAI
-        </h1>
+        <img
+          src="/logo.png"
+          alt="LexAI"
+          style={{ maxWidth: "320px", width: "100%", display: "block", margin: "0 auto" }}
+        />
         <p
           style={{
             fontFamily: "'Source Serif 4', serif",
