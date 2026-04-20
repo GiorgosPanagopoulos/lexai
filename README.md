@@ -14,6 +14,7 @@
 [![Anthropic](https://img.shields.io/badge/Anthropic-Claude-D97757?style=for-the-badge)](https://anthropic.com)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com)
 [![Ollama](https://img.shields.io/badge/Ollama-Llama3.2-black?style=for-the-badge)](https://ollama.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 *Multi-LLM courtroom simulation with RAG-powered legal arguments, real-time scoring, and AI judges*
 
@@ -146,10 +147,12 @@ After each side has argued at least 3 times, the "Αίτημα Ετυμηγορ�
 
 <div align="center">
 
+*I build things I'd trust with something that matters.*
+
 ⚡ Built by — **Georgios Panagopoulos** — Full-Stack Developer
 
-[![GitHub](https://img.shields.io/badge/GitHub-GiorgosPanagopoulos-181717?style=for-the-badge&logo=github)](https://github.com/GiorgosPanagopoulos)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Georgios_Panagopoulos-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/georgios-panagopoulos-9253842ba)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GiorgosPanagopoulos)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/georgios-panagopoulos-9253842ba)
 
 ☕ Powered by mass amounts of caffeine & mass amounts of curiosity.
 
