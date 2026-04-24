@@ -11,6 +11,13 @@
   --defense-blue: #4a90d9;
   --prosecution-red: #d94a4a;
   --witness-gray: #7a7a8c;
+
+  --gold: #c9a84c;
+  --bg-dark: #0b0804;
+  --dialog-bg: #060401;
+  --defense: #5090c8;
+  --prosecution: #c86060;
+  --witness: #60b860;
 }
 
 *,
@@ -113,4 +120,19 @@ body {
   50% {
     box-shadow: 0 0 0 6px transparent;
   }
+}
+
+@keyframes speakerPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.6; }
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes portraitGlow {
+  0%, 100% { box-shadow: 0 0 8px currentColor; }
+  50% { box-shadow: 0 0 18px currentColor; }
 }
