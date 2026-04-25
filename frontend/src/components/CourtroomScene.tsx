@@ -379,7 +379,7 @@ export default function CourtroomScene({ activeRole, scores, turnCount, caseTitl
     }
 
     return (
-      <g key={role} opacity={0.25}>
+      <g key={role} opacity={0.15}>
         <CharComponent />
       </g>
     );

@@ -30,6 +30,19 @@ You can play as the defense attorney yourself, or sit back and watch AI vs AI un
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Case Selection
+![Home](docs/LexAI_HOME.png)
+
+### ⚖️ Courtroom — Trial Start
+![Courtroom](docs/LexAI_entry.png)
+
+### 🎤 Active Speaker
+![Speaking](docs/LexAI_speak.png)
+
+---
+
 ## 🔧 Tech Stack
 
 | Component | Technology |
