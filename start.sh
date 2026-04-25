@@ -17,10 +17,16 @@ if [ ! -f "$BACKEND/.env" ]; then
 fi
 
 # ── Python venv ───────────────────────────────────────────────────────────────
+PYTHON="${PYTHON:-python3.12}"
+if ! command -v "$PYTHON" &>/dev/null; then
+  error "Python 3.12 not found. Install it or set PYTHON= to a compatible version (3.10–3.13)."
+  exit 1
+fi
+
 VENV="$ROOT/.venv"
 if [ ! -d "$VENV" ]; then
-  info "Creating Python virtual environment..."
-  python3 -m venv "$VENV"
+  info "Creating Python virtual environment ($($PYTHON --version))..."
+  "$PYTHON" -m venv "$VENV"
 fi
 source "$VENV/bin/activate"
 
