@@ -39,9 +39,17 @@ if [ ! -d "$FRONTEND/node_modules" ]; then
   npm --prefix "$FRONTEND" install --silent
 fi
 
+# ── Load backend env vars so pydantic-settings finds them ────────────────────
+if [ -f "$BACKEND/.env" ]; then
+  set -a
+  # shellcheck source=/dev/null
+  source "$BACKEND/.env"
+  set +a
+fi
+
 # ── Start backend ─────────────────────────────────────────────────────────────
 info "Starting FastAPI backend on http://localhost:8000 ..."
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload &
+uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload --reload-dir "$BACKEND" &
 BACKEND_PID=$!
 
 # ── Start frontend ────────────────────────────────────────────────────────────
