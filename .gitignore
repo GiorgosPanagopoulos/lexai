@@ -6,6 +6,10 @@ chroma_db/
 dist/
 .vite/
 venv/
+.venv/
+.claude/
+frontend/tsconfig.tsbuildinfo
+frontend/package-lock.json
 .DS_Store
 *.egg-info/
 .pytest_cache/
